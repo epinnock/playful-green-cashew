@@ -1,11 +1,12 @@
 {
   "setupTasks": [{ "name": "Install", "command": "npm install" }],
   "tasks": {
-    "dev": {
-      "name": "Expo Web",
-      "command": "npx --yes expo@~54.0.0 start --web --port 8081",
-      "preview": { "port": 8081 },
-      "runAtStart": true
-    }
+        "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
   }
 }
