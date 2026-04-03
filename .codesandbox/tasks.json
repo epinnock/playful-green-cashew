@@ -3,7 +3,7 @@
   "tasks": {
         "start": {
       "name": "start",
-      "command": "npm expo start --tunnel",
+      "command": "npx --yes expo@~54.0.0 start --tunnel",
       "runAtStart": true,
       "preview": {
         "port": 8080
